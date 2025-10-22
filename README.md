@@ -31,17 +31,17 @@ Classes:
 
 # Etapas do Projeto
 
-1-Importação das bibliotecas (TensorFlow, Keras, NumPy, Matplotlib, Seaborn, scikit-learn)
-2-Carregamento e inspeção do dataset
-3-Análise exploratória — distribuição de classes e visualização de amostras
-4-Pré-processamento
-5-Normalização dos pixels (0–255 → 0–1)
-6-Reformatação para formato compatível com CNN ((28, 28, 1))
-7-Conversão dos rótulos para One-Hot Encoding
-8-Divisão treino/validação/teste
-9-Arquitetura: CNN (Convolutional Neural Network)
-    CNN Shallow - Uma camada convolucional, porém mais larga.
-    Aprende: Padrões simples e locais (bordas, linhas, cores)
-    CNN Deep - Quatro camadas convolucional, mais especializada.
-    Aprende: Padrões hierárquicos e complexos (texturas -> partes -> objetos inteiros)
-10-Comparação de desempenho e análise dos resultados
+* 1-Importação das bibliotecas (TensorFlow, Keras, NumPy, Matplotlib, Seaborn, scikit-learn)
+* 2-Carregamento e inspeção do dataset
+* 3-Análise exploratória — distribuição de classes e visualização de amostras
+* 4-Pré-processamento
+* 5-Normalização dos pixels (0–255 → 0–1)
+* 6-Reformatação para formato compatível com CNN ((28, 28, 1))
+* 7-Conversão dos rótulos para One-Hot Encoding
+* 8-Divisão treino/validação/teste
+* 9-Arquitetura: CNN (Convolutional Neural Network)
+    ** CNN Shallow - Uma camada convolucional, porém mais larga.
+    ** Aprende: Padrões simples e locais (bordas, linhas, cores)
+    ** CNN Deep - Quatro camadas convolucional, mais especializada.
+    ** Aprende: Padrões hierárquicos e complexos (texturas -> partes -> objetos inteiros)
+* 10-Comparação de desempenho e análise dos resultados
